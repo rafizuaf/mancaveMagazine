@@ -22,6 +22,7 @@ const config = {
         sans: ["var(--font-plus-jakarta-sans)"],
       },
       colors: {
+        mancave: "#b91c1c",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
