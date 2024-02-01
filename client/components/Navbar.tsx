@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
     ];
 
     return (
-        <header className={`container fixed top-0 left-0 right-0 ${scrollBackground ? 'bg-white opacity-95 transition duration-200 ease-in-out' : ''}`}>
+        <header className={`container z-50 fixed top-0 left-0 right-0 ${scrollBackground ? 'bg-white opacity-95 transition duration-200 ease-in-out' : ''}`}>
             <div className={`relative w-full h-[80px] md:h-full flex flex-row md:flex-col justify-between items-center px-4 text-gray-700 text-xl font-semibold border-b-2`}>
                 <div className="flex md:-mt-5 flex-grow h-36 w-36 justify-center">
                     <Link href={'/'}>
