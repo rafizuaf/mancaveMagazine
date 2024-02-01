@@ -3,8 +3,8 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { cn } from "../lib/utils"
 import Navbar from "@/components/Navbar";
-import AdsCard from "@/components/AdsCard";
 import SearchBar from "@/components/SearchBar";
+import AdsCard from "@/components/AdsCard";
 
 export const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
