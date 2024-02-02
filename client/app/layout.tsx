@@ -3,8 +3,8 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { cn } from "../lib/utils"
 import Navbar from "@/components/Navbar";
-import SearchBar from "@/components/SearchBar";
-import AdsCard from "@/components/AdsCard";
+import Sidebar from "@/components/Sidebar";
+import { Footer } from "@/components/Footer";
 
 export const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -35,16 +35,10 @@ export default function RootLayout({
                 {children}
               </div>
             </div>
-            <aside className="hidden md:block md:w-1/4 md:pl-5">
-              <div className="pt-5">
-                <SearchBar />
-                <AdsCard />
-                <AdsCard />
-                <AdsCard />
-              </div>
-            </aside>
+            <Sidebar />
           </div>
         </main>
+        <Footer />
       </body>
     </html>
   );
